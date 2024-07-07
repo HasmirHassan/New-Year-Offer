@@ -157,8 +157,12 @@ body{
         font-size: 32px;
         font-weight: 600;
         line-height: 56px;
-        
     }
+        
+        .location-details span{
+            color:rgb(255, 0, 0) ;
+        }
+    
     .btn{
         border-radius: 8px;
         background: rgb(255, 0, 0);
