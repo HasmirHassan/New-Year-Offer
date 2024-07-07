@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Merriweather", serif;;
+}
+
+/* header style */
+
+.banner{
+    background-image: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Banner\ Image.png);
+    border-radius: 16px;
+    max-width: 1320px;
+    height: 600px;
+    border: 2px solid white;
+    margin: 50px auto;
+}
+.banner-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 632px;
+    height: 246px;
+    margin: 170px auto;
+}
+.banner-sub-title{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+.offer{
+    width: 802.9px;
+    height: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto;
+}
+.offer h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.offer p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.offer h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 48px;
+    }
+.offer-img{
+        width: 802.9px;
+        height: 500px;
+    }
+
+    .welcome{
+        background-image:linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url(../images/Vectorrr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 1320px;
+        height: 600px;
+        margin: 120px auto;
+    }
+    .welcome-container{
+        display: flex;
+    }
+    .welcome-content{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+    .welcome-content h1{
+        color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 900;
+    text-align: left;
+    margin: 126px 94px 24px 126px;
+    }
+    .welcome-content p{
+        color: rgba(255, 255, 255, 0.8);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        margin: 0px 39px 48px 126px;
+    }
+    .welcome h5{
+        width: 50%;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-left: 158px;
+    }
+     .welcome-img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 349.16px;
+        height: 464.65px;
+        margin: 68px 108px 67px ;
+    }
+    /* .welcome-img img{
+        width: 349.16px;
+        height: 464.65px;
+        margin: 68px 108px 67px;
+    } */
+
+    .location{
+        border-radius: 16px;
+        background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+        text-align: center;
+        width: 1320px;
+        height: 482px;
+        margin: 0 auto;
+        margin-bottom: 120px;
+    }
+    .location-details{
+        margin-top: 100px;
+        padding-top: 100px;
+        margin-bottom: 48px;
+    }
+    .location-details h4{
+        font-family: Inter;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 56px;
+        
+    }
+    .btn{
+        border-radius: 8px;
+        background: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 0px 10px;
+        padding: 16px 32px 16px 32px;
+        border: none;
+    }
