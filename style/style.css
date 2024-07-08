@@ -43,7 +43,7 @@ body{
     text-align: center;
 }
 .offer{
-    width: 802.9px;
+    max-width: 802.9px;
     height: 806px;
     display: flex;
     flex-direction: column;
@@ -142,7 +142,7 @@ body{
         border-radius: 16px;
         background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
         text-align: center;
-        width: 1320px;
+        max-width: 1320px;
         height: 482px;
         margin: 0 auto;
         margin-bottom: 120px;
@@ -176,3 +176,77 @@ body{
         padding: 16px 32px 16px 32px;
         border: none;
     }
+
+    .best-offer{
+        max-width: 1320px;
+        height: 463px;
+        margin: 0 auto;
+        margin-bottom: 120px;
+    }
+    .offer-content{
+        display: flex;
+    }
+.offer-title{
+    width: 393px;
+    height: 255px;
+    margin: 104px 70px 104px 0;
+}
+.offer-title h4{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 16px;
+}
+.offer-title h1{
+    color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 900;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 22px;
+}
+.offer-title p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+text-align: left;
+}
+.offer-pic{
+    width: 463px;
+    height: 463px;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+}
+.offer-img-pic{
+    width: 364.84px;
+    height: 364.84px;
+    margin: 35px 50px 50px 35px;
+}
+.offer-sub-title{
+    width: 276px;
+    height: 170px;
+    margin: 112px 0px 181px 118px;
+}
+.offer-sub-title h1{
+    color: rgb(255, 0, 0);
+font-family: Inter;
+font-size: 48px;
+font-weight: 700;
+text-align: left;
+margin-bottom: 16px;
+}
+.offer-sub-title p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+text-align: left;
+}
+.offer-sub-title-pic{
+    width: 140px;
+    height: 140px;
+    margin-right: 145px;
+    margin-top: 43px;
+}
